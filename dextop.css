@@ -1,0 +1,92 @@
+/* for Dextop navbar design */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+.nav_logo{
+    text-align: center;
+}
+.nav_heading h1{
+    text-align: right;
+}
+.profile-desc p{
+    top: 10px;
+    color: gray;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    width: 50%;
+}
+.navBar_menu{
+    flex-direction: row;
+}
+/*dextop Navbar design ends*/
+/* dextop Nabar starts here*/
+.profile .top-weather-icon{
+    right: 150px;
+    width: 120px;
+    transition: width 2s,transform 2s;
+}
+
+
+.profile 
+.top-weather-icon:hover{
+ width:140px;
+}
+.profile 
+.bottom-weather-icon{
+    left: 200px;
+    width: 120px;
+    transition: width 2s,transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+ width:140px;
+}
+/*dextop Navbar ends here*/
+
+/* about me design starts here*/
+.about-me{
+    margin-top: 100px;
+
+}
+.aboutme-image img{
+    height: 270px;   
+}
+.aboutme-dsc p{
+    text-align: left;
+}
+/*About me design ends here */
+/**/
+/**/
+
+/*Professional Experience  design has been started*/
+.professional_experience{
+    padding: 1% 5%;
+}
+/*Professional Experience design has been ended*/
+/*Achievement Contact section design starts here*/
+
+/*Achievement Contact Section design ends here*/
+
+.contact_links_{
+    position: relative;
+}
+.media-button{
+   position:absolute;
+   margin-top:140px ;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}
